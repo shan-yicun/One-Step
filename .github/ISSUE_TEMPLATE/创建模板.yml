@@ -1,7 +1,7 @@
-name: "王建春"    
-description: File a bug report.  
+name: '王建春'    
+description: File a bug report.    
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug", "triage"]        
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
