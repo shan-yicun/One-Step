@@ -1,6 +1,5 @@
 name: 创建issue的一个模板
 description: 上传文件请使用此模板1
-about: 上传文件请使用此模板2
 title: "[文件名]: "                
 labels: ["一个,标签"]                      
 projects: ["octo-org/1", "github/2"]                            
