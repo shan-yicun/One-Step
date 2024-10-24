@@ -1,4 +1,4 @@
-name: 上传演讲的issue的一个模板
+name: "上传演讲的issue的一个模板"
 description: mode name
 title: "[文件名]: "                
 labels: ["一个,标签"]                      
