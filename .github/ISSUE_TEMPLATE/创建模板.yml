@@ -1,4 +1,4 @@
-name: wjc
+name: Wjc
 description: File a bug report.    
 title: "[Bug]: "
 labels: ["bug", "triage"]        
