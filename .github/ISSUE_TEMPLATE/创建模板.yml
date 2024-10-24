@@ -1,10 +1,10 @@
-name: 创建issue的一个模板
-description: 上传文件请使用此模板1
+name: 上传演讲的issue的一个模板
+description: mode name
 title: "[文件名]: "                
 labels: ["一个,标签"]                      
 projects: ["octo-org/1", "github/2"]                            
 assignees:
-  - octocat          
+  - octocat            
 body:
   - type: markdown  
     attributes:    
@@ -14,15 +14,15 @@ body:
     id: contact                          
     attributes:        
       label: 作者              
-      description: 请输入您的名称：                
-      placeholder: 张三/github_id
+      description: your name            
+      placeholder: 张三/github_id    
     validations:  
       required: false              
   - type: textarea                          
     id: what-happened
     attributes:
       label: 参加时间       
-      description:  讲解的时间选择            
+      description:  time choose.      
       placeholder: 这周？下周？              
       value: "下周六晚上20:00"                                  
     validations:  
@@ -31,7 +31,7 @@ body:
     id: version
     attributes:
       label: 内容标题          
-      description:10~30min最宜，不超过40min    
+      description: 10~30min最宜，不超过40min    
       options:
         - 0~10min           
         - 10~20min
