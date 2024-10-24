@@ -1,4 +1,4 @@
-name: mingzi
+name: 'mz'
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
