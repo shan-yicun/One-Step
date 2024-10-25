@@ -43,7 +43,7 @@ body:
       placeholder: '例如：2小时'
     validations:
       required: true
-  - type: input  
+  - type: input
     id: participation_time
     attributes:
       label: '参加时间'
