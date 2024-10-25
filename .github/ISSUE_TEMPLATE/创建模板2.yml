@@ -8,10 +8,10 @@ projects:
   - github/2    
 assignees:
   - octocat            
-body:    
+body:  
   - type: markdown      
     attributes:
-      value: |
+      value: |  
         '请参考此模板进行issue创建'
   - type: input        
     id: contact
