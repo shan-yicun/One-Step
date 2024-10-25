@@ -22,11 +22,8 @@ body:
       description: '请选择内容形式'
       options:
         - label: '课程'
-          value: 'course'
         - label: '报告'
-          value: 'report'
         - label: '其他'
-          value: 'other'
     validations:
       required: true
   - type: input
@@ -59,10 +56,7 @@ body:
       label: '关闭 Issue 前检查'
       options:
         - label: 'PPT 是否上传：关联到 PR 链接'
-          value: 'ppt_uploaded'
         - label: '源文件（例如 markdown 文件）是否上传'
-          value: 'source_file_uploaded'
         - label: '视频是否上传：是/否'
-          value: 'video_uploaded'
     validations:
       required: true
