@@ -1,49 +1,68 @@
-name: 错误报告模板
-description: 提交一个错误报告
-title: "文件名： "
+name: 参与者信息模板
+description: 创建 Issue 时填写参与者信息
+title: "内容标题： "
 labels:
-  - 文档
+  - 参与者信息
 projects:
   - octo-org/1
   - github/2
 body:
   - type: input
-    id: contact
+    id: author
     attributes:
       label: '作者'
-      description: '你的名称或 GitHub ID'
-      placeholder: '张三/github_id'
+      description: '昵称/github_id/xxx'
+      placeholder: '张三/github_id/xxx'
+    validations:
+      required: true
+  - type: checkboxes
+    id: content_type
+    attributes:
+      label: '内容形式'
+      description: '请选择内容形式'
+      options:
+        - label: '课程'
+          value: 'course'
+        - label: '报告'
+          value: 'report'
+        - label: '其他'
+          value: 'other'
+    validations:
+      required: true
+  - type: input
+    id: summary
+    attributes:
+      label: '摘要'
+      description: '可选'
+      placeholder: '提供内容摘要（可选）'
     validations:
       required: false
-  - type: textarea
-    id: description
+  - type: input
+    id: duration
     attributes:
-      label: '描述'
-      description: '请描述你遇到的问题。'
-      placeholder: '提供一个清晰简洁的错误描述。'
+      label: '预计时长'
+      description: '预计完成内容所需时长'
+      placeholder: '例如：2小时'
     validations:
       required: true
   - type: input
-    id: steps
+    id: participation_time
     attributes:
-      label: '重现步骤'
-      description: '列出重现错误的步骤。'
-      placeholder: '1. 第一步\n2. 第二步\n3. 第三步'
+      label: '参加时间'
+      description: '请填写参加时间'
+      placeholder: '例如：2024年10月25日'
     validations:
       required: true
-  - type: input
-    id: expected
+  - type: checkboxes
+    id: pre_close_check
     attributes:
-      label: '预期行为'
-      description: '你预期会发生什么。'
-      placeholder: '解释你期望发生的情况。'
-    validations:
-      required: true
-  - type: input
-    id: actual
-    attributes:
-      label: '实际行为'
-      description: '实际发生了什么。'
-      placeholder: '解释实际发生的情况。'
+      label: '关闭 Issue 前检查'
+      options:
+        - label: 'PPT 是否上传：关联到 PR 链接'
+          value: 'ppt_uploaded'
+        - label: '源文件（例如 markdown 文件）是否上传'
+          value: 'source_file_uploaded'
+        - label: '视频是否上传：是/否'
+          value: 'video_uploaded'
     validations:
       required: true
