@@ -2,7 +2,7 @@ name: 参与者信息模板
 description: 创建 Issue 时填写参与者信息
 title: "[参与者信息]: "
 labels: ["参与者信息"]
-projects: ["octo-org/1", "octo-org/44"]
+projects: ["octo-org/1", "octo-org/44"]  
 body:
   - type: markdown
     attributes:
