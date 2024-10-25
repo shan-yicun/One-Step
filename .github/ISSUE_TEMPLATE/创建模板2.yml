@@ -1,1 +1,71 @@
-
+name: '一个名字'
+description: File a bug report.
+title: "文件名： "
+labels:
+  - 文档
+projects:
+  - octo-org/1
+  - github/2
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        '请参考此模板进行issue创建'
+  - type: input
+    id: contact
+    attributes:
+      label: '作者'
+      description: 你的名称
+      placeholder: 张三/github_id
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: '参加时间'
+      description: Also tell us, what did you expect to happen?
+      placeholder: 这周？下周？
+      value: 下周六晚上20：00
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: '内容标题'
+      description: 10~30min最宜，不超过40min
+      options:
+        - 0~10min
+        - 10~20min
+        - 20~30min
+        - 30~40min
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: 内容形式
+      multiple: true
+      options:
+        - 课程
+        - 报告
+        - PPT
+        - 个人费曼
+  - type: textarea
+    id: logs
+    attributes:
+      label: '摘要'
+      description: 可以输入本次分享的主要内容，将附在分享视频的下方同时供以了解参考。
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: '确认事项'
+      description: null
+      options:
+        - label: 'PPT是否上传'
+        - labe2: '原文件markdown需要上传？'
+        - labe3: '视频是否上传'
+          required: true
