@@ -20,14 +20,13 @@ body:
     id: content_type
     attributes:
       label: '内容形式'
-      description: '请选择内容形式'
       options:
         - label: '课程'
         - label: '报告'
         - label: '其他'
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: summary
     attributes:
       label: '摘要'
