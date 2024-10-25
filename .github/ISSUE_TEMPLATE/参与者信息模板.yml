@@ -17,7 +17,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: content_type
+    id: content_type  
     attributes:
       label: '内容形式'
       options:
@@ -30,7 +30,7 @@ body:
     id: summary
     attributes:
       label: '摘要'
-      description: '可选'
+      description: '可选'  
       placeholder: '提供内容摘要（可选）'
     validations:
       required: false
@@ -50,7 +50,7 @@ body:
       placeholder: '例如：2024年10月25日'
     validations:
       required: true
-  - type: checkboxes
+  - type: checkboxes  
     id: pre_close_check
     attributes:
       label: '关闭 Issue 前检查'
