@@ -1,4 +1,4 @@
-name: '一个名字'
+name: key
 description: File a bug report.    
 title: "[Bug]: "
 labels: ["bug", "triage"]
