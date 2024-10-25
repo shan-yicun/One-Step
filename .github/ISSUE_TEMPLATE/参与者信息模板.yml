@@ -78,7 +78,7 @@ body:
       required: false
   - type: input
     id: progress_tracking
-    attributes:  
+    attributes:
       label: '进度跟踪'
       description: '请填写比赛进度或任务进展'
       placeholder: '例如：第一轮已完成'
