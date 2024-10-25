@@ -3,6 +3,8 @@ description: 创建 Issue 时填写参与者信息
 title: "[参与者信息]: "
 labels: ["参与者信息"]
 projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat  # 替换为你想默认指派的用户名
 body:
   - type: markdown
     attributes:
