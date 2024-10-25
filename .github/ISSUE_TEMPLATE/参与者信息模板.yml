@@ -52,6 +52,38 @@ body:
       placeholder: '例如：2024年10月25日'
     validations:
       required: true
+  - type: input
+    id: task_details
+    attributes:
+      label: '开发任务详情'
+      description: '请详细描述开发任务'
+      placeholder: '例如：实现登录功能'
+    validations:
+      required: false
+  - type: input
+    id: competition_info
+    attributes:
+      label: '比赛信息'
+      description: '请填写比赛相关信息'
+      placeholder: '例如：比赛名称、时间等'
+    validations:
+      required: false
+  - type: input
+    id: team_request
+    attributes:
+      label: '组队需求'
+      description: '请填写组队要求或可加入的队伍'
+      placeholder: '例如：寻找前端开发者'
+    validations:
+      required: false
+  - type: input
+    id: progress_tracking
+    attributes:  
+      label: '进度跟踪'
+      description: '请填写比赛进度或任务进展'
+      placeholder: '例如：第一轮已完成'
+    validations:
+      required: false
   - type: checkboxes
     id: pre_close_check
     attributes:
