@@ -6,12 +6,8 @@ labels:
 projects:
   - octo-org/1  
   - github/2                   
-body:    
-  - type: markdown        
-    attributes:  
-      value: |  
-        '请参考此模板进行issue创建'
-  - type: input        
+body: 
+  - type: input          
     id: contact
     attributes:
       label: '作者'
