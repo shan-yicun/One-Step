@@ -1,8 +1,8 @@
 name: '一个名字'
 description: File a bug report.
-title: "文件名 "      
-labels: ["文档"]                            
-projects: ["octo-org/1", "github/2"]                    
+title: "文件名"    
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
@@ -14,7 +14,7 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?  
+      description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
       required: false
