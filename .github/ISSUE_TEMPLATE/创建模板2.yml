@@ -2,7 +2,7 @@ name: '一个名字'
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+projects: ["octo-org/1", "octo-org/44"]  
 assignees:
   - octocat
 body:
@@ -15,7 +15,7 @@ body:
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      placeholder: ex. email@example.com  
     validations:
       required: false
   - type: textarea
