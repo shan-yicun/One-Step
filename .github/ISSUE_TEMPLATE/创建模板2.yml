@@ -1,8 +1,8 @@
 name: '一个名字'
 description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+title: "文件名 "      
+labels: ["文档"]                            
+projects: ["octo-org/1", "github/2"]                    
 assignees:
   - octocat
 body:
