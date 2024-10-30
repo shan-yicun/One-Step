@@ -6,7 +6,7 @@ assignees:
 body:
   - type: input
     id: contact
-    attributes:
+  attributes:    
       label: '联系方式'
       description: '如何和你联系？'
       placeholder: '例如qq/vx'
