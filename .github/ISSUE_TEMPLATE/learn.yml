@@ -35,5 +35,5 @@ body:
       label: '关闭issue前检查内容'
       description: '报名人不需要填写'
       options:
-        - 'ppt是否上传〈pr链接〉'
-        - '是否有文档阅读〈链接〉'
+        - label: 'ppt是否上传〈pr链接〉'
+        - label: '是否有文档阅读〈链接〉'
