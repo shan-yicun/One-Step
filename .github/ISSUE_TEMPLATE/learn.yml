@@ -11,4 +11,4 @@ body:
       description: '如何和你联系？'
       placeholder: '例如qq/vx'
     validations:
-      required: true    
+      required: true
