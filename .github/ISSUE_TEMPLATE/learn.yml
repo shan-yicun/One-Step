@@ -2,7 +2,7 @@ name: 参加茶话会信息填报
 description: '信息填报'
 title: "[茶话会参加模板]："
 assignees:
-  - octocat
+  - oct
 body:
   - type: input
     id: address
@@ -14,8 +14,8 @@ body:
       required: true
   - type: textarea
     id: abstract
+    description: '您讲解的主要内容'
     attributes:
       label: '摘要'
-      description: '您的讲解的主要内容'
     validations:
       required: false
