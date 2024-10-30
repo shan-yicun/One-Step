@@ -15,7 +15,8 @@ body:
   - type: textarea
     id: abstract
     attributes:
-      description: '您讲解的主要内容'
+      placeholder: 填写您的主要讲解内容
+      description: 可选
       label: '摘要'
     validations:
       required: false
