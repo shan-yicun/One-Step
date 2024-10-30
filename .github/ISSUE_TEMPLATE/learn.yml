@@ -5,7 +5,7 @@ assigness:
   - oct
 body:
   - type: input
-    id: '地址'
+    id: address
     attributes:
       label: '联系方式'
       description: '请写入您的联系方式'
@@ -13,7 +13,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: '梗概'
+    id: abstract
     attributes:
       label: '摘要'
       description: '您的讲解的主要内容'
