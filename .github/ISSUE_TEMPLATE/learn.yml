@@ -1,14 +1,1 @@
-name: '茶话会参与者填写模板'
-description: '参与填写'
-title: "[参与者信息：]"
-assignees:
-  - octocat
-body:
-  - type: input
-    id: contact
-    attributes:
-      label: '联系方式'
-      description: '如何和你联系？'
-      placeholder: '例如qq/vx'    
-    validations:
-      required: false
+
