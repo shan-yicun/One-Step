@@ -1,11 +1,11 @@
 name: 参加茶话会信息填报
-description: '信息填报'
+description: 信息填报
 title: "[茶话会参加模板]："
 assignees:
   - oct
 body:
   - type: input
-    id: address
+    id: '地址'
     attributes:
       label: '联系方式'
       description: '请写入您的联系方式'
