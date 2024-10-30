@@ -19,3 +19,14 @@ body:
       label: '摘要'
     validations:
       required: false
+  - type: dropdown
+    id: talk_xingshi
+    attributes:
+      label: '讲解形式'
+      description: '通过什么方式讲解您的内容'
+      options:
+        - ppt
+        - '演讲'
+        - '其他'
+    validations: 
+      required: true
