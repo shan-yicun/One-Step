@@ -64,7 +64,7 @@ body:
       label: '确认事项'
       description: null
       options:
-        - labe: 'PPT是否上传'
-        - labe: '原文件markdown需要上传？'
-        - labe: '视频是否上传'
+        - label: 'PPT是否上传'
+        - label: '原文件markdown需要上传？'
+        - label: '视频是否上传'
           required: true
