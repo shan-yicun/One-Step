@@ -1,7 +1,7 @@
 name: '一个名字'
 description: File a bug report.  
 title: "文件名："
-labels:  
+labels:
   - '文档'
 projects:
   - octo-org/1
