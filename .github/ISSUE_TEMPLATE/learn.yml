@@ -1,8 +1,8 @@
 name: 参加茶话会信息填报
-dscription: '信息填报'
+description: '信息填报'
 title: "[茶话会参加模板]："
 assigness:
-  - oct
+  - octocat
 body:
   - type: input
     id: address
