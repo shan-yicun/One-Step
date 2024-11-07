@@ -10,5 +10,4 @@ body:
     options:
     - label: '技术类'
     - label: '其他'
-  validations:
-      required: false
+  required: false
