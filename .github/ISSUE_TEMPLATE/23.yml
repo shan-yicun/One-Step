@@ -1,5 +1,5 @@
 name: 参与者信息
-descrption: 参加茶话会人员填写
+description: 参加茶话会人员填写
 body:
 - type: input
   attributes:
