@@ -4,3 +4,9 @@ body:
 - type: input
   attributes:
     label: '你的昵称'
+- type: checkboxes
+  attributes: 
+    label: '你的分享内容'
+    options:
+    - '技术类'
+    - '其他'
