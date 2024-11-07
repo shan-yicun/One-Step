@@ -8,5 +8,5 @@ body:
   attributes: 
     label: '你的分享内容'
     options:
-    - '技术类'
-    - '其他'
+    - label: '技术类'
+    - label: '其他'
