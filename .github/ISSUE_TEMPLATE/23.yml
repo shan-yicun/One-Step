@@ -3,5 +3,4 @@ description: 参加茶话会人员填写
 body:
 - type: input
   attributes:
-  label: '你的昵称'
-  description: '填写你的昵称'
+    label: '你的昵称'
